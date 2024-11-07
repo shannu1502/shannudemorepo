@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "rm-adf"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"dsazuresql_password": {
+			"value": ""
+		},
+		"dsonpremsqlserver_password": {
+			"value": ""
+		},
+		"dsazuresql_properties_typeProperties_server": {
+			"value": "shannuserver.database.windows.net"
+		},
+		"dsazuresql_properties_typeProperties_database": {
+			"value": "shannudb"
+		},
+		"dsazuresql_properties_typeProperties_userName": {
+			"value": "shannu"
+		},
+		"dsonpremsqlserver_properties_typeProperties_server": {
+			"value": "DESKTOP-5N5I1VK\\SQLEXPRESS"
+		},
+		"dsonpremsqlserver_properties_typeProperties_database": {
+			"value": "Test_db"
+		},
+		"dsonpremsqlserver_properties_typeProperties_userName": {
+			"value": "rajesh"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
