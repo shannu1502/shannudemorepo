@@ -1,0 +1,21 @@
+{
+	"name": "dsonpremsqlserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-5N5I1VK\\SQLEXPRESS",
+			"database": "Test_db",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "rajesh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1ODczNTI1OS0wM2ViLTQyYzgtOTViOC1mYmUwNjRiMDk4ZjAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "RMIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
